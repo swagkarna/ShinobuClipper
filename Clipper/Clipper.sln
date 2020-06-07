@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clipper", "Clipper\Clipper.csproj", "{9DEBD99E-2B66-47B6-A327-36C777E380EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DEBD99E-2B66-47B6-A327-36C777E380EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DEBD99E-2B66-47B6-A327-36C777E380EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DEBD99E-2B66-47B6-A327-36C777E380EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DEBD99E-2B66-47B6-A327-36C777E380EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A179502-7E5A-4002-8DA9-B6695BF1F42D}
+	EndGlobalSection
+EndGlobal
